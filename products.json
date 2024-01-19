@@ -1,0 +1,20 @@
+[
+  {
+    "title": "harry potter2",
+    "description": "Magos",
+    "price": 22000,
+    "thumbnail": "imagen",
+    "code": "HP2",
+    "stock": 3,
+    "id": 1
+  },
+  {
+    "title": "harry potter3",
+    "description": "Magos",
+    "price": 19000,
+    "thumbnail": "imagen",
+    "code": "HP3",
+    "stock": 1,
+    "id": 2
+  }
+]
