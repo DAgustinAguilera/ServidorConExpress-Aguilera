@@ -1,6 +1,6 @@
 [
   {
-    "title": "harry potter2",
+    "title": "harry potter 2",
     "description": "Magos",
     "price": 22000,
     "thumbnail": "imagen",
@@ -9,12 +9,49 @@
     "id": 1
   },
   {
-    "title": "harry potter3",
+    "title": "harry potter 3",
     "description": "Magos",
     "price": 19000,
     "thumbnail": "imagen",
     "code": "HP3",
     "stock": 1,
     "id": 2
+  },
+  {
+    "title": "harry potter 4",
+    "description": "Magos",
+    "price": 19000,
+    "thumbnail": "imagen",
+    "code": "HP4",
+    "stock": 3,
+    "id":3
+  },
+  {
+    "title": "harry potter 5",
+    "description": "Magos",
+    "price": 19000,
+    "thumbnail": "imagen",
+    "code": "HP5",
+    "stock": 2,
+    "id": 4
+  },
+  {
+    "title": "Los crimenes de la calle morgue",
+    "description": "Detective",
+    "price": 12000,
+    "thumbnail": "imagen",
+    "code": "POE1",
+    "stock": 4,
+    "id": 5
+  },
+  {
+    "title": "Mouse",
+    "description": "ratones",
+    "price": 23000,
+    "thumbnail": "imagen",
+    "code": "Ms",
+    "stock": 4,
+    "id": 6
   }
+
 ]

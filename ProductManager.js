@@ -39,25 +39,18 @@ class ProductManager{
         }
     }
 
-    getProductsById(id) {
-        fs.promises.readFile('./products.json', 'utf-8')
-        .then(res => {
+    async getProductsById(id) {
+        let res = await fs.promises.readFile('./products.json', 'utf-8')
+            
             let response = JSON.parse(res)
             let productId = response.find((p) => p.id === id);
-            // console.log(productId)
 
             if(productId){
-                console.log(productId)
                 return productId;
             }
             else {
                 console.log(`No hay ningun producto con el id ${id}`)
             }
-
-        })
-        .catch(err =>{
-
-        })
 
 
     }

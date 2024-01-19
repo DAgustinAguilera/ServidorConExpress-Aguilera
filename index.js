@@ -12,7 +12,6 @@ app.get('/', (req, res)=>{
 })
 app.get('/products', async(req, res)=>{
     let products = JSON.parse(await product.getProducts())
-    console.log(products)
     let limit = req.query.limit
     if(req.query.limit){
         res.send(await products.slice(0 ,limit))
@@ -24,10 +23,8 @@ app.get('/products', async(req, res)=>{
 })
 app.get('/products/:pid', async(req, res)=>{
     let pid = req.params["pid"]
-    
-    // console.log(products)
-    // console.log(req.params)
-    res.send(await product.getProductsById(Number(pid)))
+    let products = product.getProductsById(Number(pid))
+    res.send(await products)
 })
 
 app.listen(onport, ()=> {
